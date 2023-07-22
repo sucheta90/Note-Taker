@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# React practice app
+00-practice-app
+.DS_Store
+./.DS_Store
