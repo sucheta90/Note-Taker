@@ -8,7 +8,8 @@ const { v4: uuidv4 } = require("uuid");
 // const noteList = require("./db/db.json");
 const app = express();
 
-const PORT = 3001;
+// const PORT = 3001;
+const port = process.env.PORT || 3001;
 
 //middlewares
 app.use(express.static("public"));
